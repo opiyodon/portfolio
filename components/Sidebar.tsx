@@ -12,10 +12,9 @@ const Sidebar = () => {
             <Image
                 src="/images/bg.jpg"
                 alt="user avatar"
-                width={32}
-                height={32}
-                objectFit="cover"
-                className="rounded-full w-32 h-32 border-2 border-primary"
+                width={128}
+                height={128}
+                className="flex flex-col justify-center items-center object-cover p-2 rounded-full w-32 h-32 border-2 border-primary"
             />
             <h3 className="flex gap-3 my-4 px-7 text-3xl font-medium tracking-wider">
                 Don<span className="text-primary">Artkins</span>
